@@ -1,0 +1,126 @@
+.wrapper {
+    max-width: 750px;
+    width: 100%;
+    background-color: rgb(0 0 0 / 72%);
+    border: 2px solid rgba(255, 255, 255, 02);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 150px;
+    margin: 100px auto;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .inputBox {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0;
+}
+
+.inputBox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.inputBox input::placeholder {
+    color: #fff;
+}
+
+.inputBox input:focus {
+    border: 1px solid #fff;
+}
+
+.inputBox i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wrapper .btn {
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.wrapper .btn:hover {
+    background-color: #ff76ba;
+    color: #fff;
+}
+
+.wrapper .registerLink {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.registerLink p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.registerLink p a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .registerLink a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.inputIcn {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    display: block;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    filter: invert(1);
+}
+
+.congratulationsMessage {
+    text-align: center;
+    color: #fff;
+    background-color: green;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.congratulationsMessage img {
+    filter: invert(1);
+    margin-right: 10px;
+}

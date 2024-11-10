@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Overview",
+    "description": "Welcome to our modern tabbed interface! Enjoy smooth transitions, vibrant gradients, and responsive design. Whether you’re browsing on mobile or desktop, everything adapts seamlessly.",
+    "link": "Learn More"
+  },
+  {
+    "title": "Features",
+    "description": "Explore the powerful features of this tabbed interface. Our design allows for easy navigation and seamless transitions between tabs, ensuring a smooth user experience on any device.",
+    "link": "Discover Features"
+  },
+  {
+    "title": "Pricing",
+    "description": "We offer flexible pricing plans to fit your needs. Choose the plan that works best for you and get started today with our modern, responsive design at an affordable price.",
+    "link": "View Pricing"
+  },
+  {
+    "title": "Contact",
+    "description": "Have questions or need support? Get in touch with our team for any inquiries, feedback, or technical assistance. We're here to help you with any of your needs.",
+    "link": "Contact Us"
+  }
+]

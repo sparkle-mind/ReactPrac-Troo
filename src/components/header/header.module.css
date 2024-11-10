@@ -1,0 +1,131 @@
+/* General Styles for the Header */
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 20px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000;
+    padding: 15px 20px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    border-radius: 65px;
+}
+  
+  .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-searchBar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 8px 15px;
+    max-width: 400px;
+    flex-grow: 1;
+  }
+  
+  .header-searchBar label {
+    margin-right: 10px;
+  }
+  
+  .header-searchBar input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px;
+    transition: width 0.3s ease;
+  }
+  
+  .header-searchBar input::placeholder {
+    color: #bdc3c7;
+  }
+  
+  .header-searchBar input:focus {
+    width: 80%;
+  }
+  
+  /* Social Icons Section */
+  .header-social {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-social ul {
+    display: flex;
+    margin-right: 15px;
+  }
+  
+  .header-social ul li {
+    list-style-type: none;
+    margin-right: 8px;
+  }
+  
+  .header-social ul li img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .header-social ul li img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* User Profile Section */
+  .user-profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .user-detail h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .user-detail p {
+    margin: 0;
+    font-size: 14px;
+    color: #bdc3c7;
+  }
+
+ 
+  /* Media Queries for Responsiveness */
+  @media screen and (max-width: 768px) {
+    .header-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header-searchBar {
+      margin-bottom: 15px;
+      width: 100%;
+    }
+  
+    .header-social {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header-social ul {
+      margin-bottom: 10px;
+    }
+  }
+  

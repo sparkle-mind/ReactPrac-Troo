@@ -1,0 +1,86 @@
+.container {
+    padding: 20px 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.cardListRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardListRow li {
+    width: 25%;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.cardListRow li,
+.cardListRow ul {
+    list-style: none;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: scale-down;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 10px;
+}
+
+.card h3 {
+    margin: 15px 0;
+    font-size: 1.2rem;
+    color: #444;
+}
+
+.card p {
+    margin: 0 15px 20px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.filterForm {
+    margin: 15px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.filterForm h5 {
+    font-size: 18px;
+    line-height: 1;
+    margin-right: 15px;
+}
+
+.filterForm select {
+    padding: 8px 50px 8px 10px;
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #000;
+    border-radius: 20px;
+}
+
+.categorySection h2 {
+    padding: 0 0 15px 0;
+    border-bottom: 1px solid #000;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,71 @@
+.tabList {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabList li {
+    margin-right: 10px;
+}
+
+/* Style for the tab content container */
+.tabContent {
+    background: linear-gradient(145deg, #f0f4f8, #c9d6e3);
+    /* Soft gradient background */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+    transition: transform 0.3s ease-in-out;
+    /* Smooth hover effect */
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+
+/* Styling for the header */
+.tabContent h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Paragraph content styling */
+.tabContent p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Link styling */
+.tabContent a {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    font-size: 12PX;
+    padding: 6px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tabContent a:hover {
+    background-color: #fff;
+    /* Darker green on hover */
+    transform: translateY(-2px);
+    color: #000;
+}
+
+.tabContent a:active {
+    transform: translateY(1px);
+    /* Little press effect */
+}

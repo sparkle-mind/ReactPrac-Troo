@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Events.css */
+.task-section {
+  max-width: 800px;
+  width: 100%;
+  background-color: #000;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.task-form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.task-form h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.task-form input[type="text"] {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  padding-right: 95px;
+}
+
+.task-form input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.task-input-row{
+  position: relative;
+}
+.task-input-row button {
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  padding: 6px 10px;
+  background-color: #000000;
+  border: 1px solid #5b4f4f;
+  color: #fff;
+  font-size: 12px;
+  display: block;
+  margin: 0;
+}
+
+.task-list {
+  margin: 20px;
+}
+
+.task-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  padding: 3px 10px;
+  margin: 5px auto;
+  background-color: #000000;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  transition: background-color 0.3s;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.task-list li h5{
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  flex: 1;
+  line-height: 1.1;
+}
+
+.icns{
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.icns button{
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 5px;
+  padding: 4px;
+
+}
+.icns svg{
+  width: 100%;
+  height: 100%;
+  display: block;
+
+}
+
+.clearAllBtn{
+  margin: 20px auto;
+  text-align: center;
+  text-transform: capitalize;
+  display: block;
+}
+
+nav {
+  
+  padding: 15px;
+}
+nav a{
+  padding: 5px;
+  color: #fff;
+}
+button {
+  background-color: #f9f9f9;
+  border: 1px solid #000;
+  margin: 15px 0;
+}
+.innerLink{
+  margin-left: 15px;
+  opacity: 0.8;
+  font-size: 14px;
+}
