@@ -3,8 +3,13 @@ import RestProps from "./RestProps";
 
 export const ListParent = () => {
     const numberList = [5, 6, 7, 8]
-    const extraProps =  { className: 'custom-class', 
-        style: { backgroundColor: 'lightgray', margin: "15px", padding: "15px" } 
+    const extraProps = {
+        className: 'custom-class',
+        style: {
+            backgroundColor: 'lightgray',
+            margin: "15px",
+            padding: "15px"
+        }
     };
 
     return (

@@ -31,6 +31,9 @@ const Navigation = () => {
           <Link to="scrollExample" className="innerLink"> --> ScrollExample</Link>
           <Link to="login">Login</Link>
           <Link to="tab">Tab</Link>
+          <Link to="lifting-state-up">lifting-state-up</Link>
+          
+
 
         </nav>
       </div>
