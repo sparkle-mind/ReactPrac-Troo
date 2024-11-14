@@ -32,6 +32,8 @@ const Navigation = () => {
           <Link to="login">Login</Link>
           <Link to="tab">Tab</Link>
           <Link to="lifting-state-up">lifting-state-up</Link>
+          <Link to="slider">Slider</Link>
+          
           
 
 

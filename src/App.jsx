@@ -12,6 +12,7 @@ import { Header } from "./components/header/Header";
 import { Login } from "./components/login/Login";
 import { Tabbing } from "./components/tabbing/Tabbing";
 import { LiftingStateUpParent } from "./components/lifting-state-up/LiftingStateUpParent";
+import Slider from "./components/slider/Slider";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             <Route path="/login" element={<Login />}></Route>
             <Route path="/tab" element={<Tabbing />}></Route>
             <Route path="/lifting-state-up" element={<LiftingStateUpParent/>}></Route>
+            <Route path="/slider" element={<Slider/>}></Route>
 
           </Routes>
             </main>
